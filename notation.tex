@@ -1,0 +1,158 @@
+% Mathematics
+\newcommand{\gaussianDisplacement}{\mu}
+\newcommand{\gaussianSpread}{\sigma}
+\newcommand{\Bessel}{J}
+\newcommand{\imagUnit}{j}
+\newcommand{\parDer}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\der}[2]{\text{d}_#2 #1}
+\newcommand{\vecPath}{\vec{l}}
+
+%\renewcommand{\vec}[1]{{\bf #1}}
+\newcommand{\vecs}[1]{{\bf #1}}
+\newcommand{\vecn}[1]{{\bf\hat{#1}}}
+\newcommand{\evec}{\mathbf{e}}
+%\renewcommand{\widetilde}[1]{\mathbb{#1}}
+\newcommand{\normal}{{\bf\hat{n}}}
+\newcommand{\F}{\vec{F}}
+
+% Geometry
+\newcommand{\orthonormal}[1]{\mathbf{u}_{#1}}
+\newcommand{\unitNormal}{\hat{n}}
+\newcommand{\localCoordinate}[1]{\xi_{#1}}
+\newcommand{\stretchedLocalCoordinate}[1]{\tilde{\xi}_{#1}}
+\newcommand{\posNorm}{r}
+\newcommand{\pos}{\vec{\posNorm}}
+\newcommand{\unitPos}{\hat{\posNorm}}
+\newcommand{\src}{\pos'}
+\newcommand{\posSrcNorm}{R}
+\newcommand{\posSrc}{\vec{\posSrcNorm}}
+\newcommand{\unitPosSrc}{\hat{\posSrcNorm}}
+\newcommand{\stepFunction}{u}
+\newcommand{\curl}{\nabla \times}
+\newcommand{\divergence}{\nabla \cdot}
+\newcommand{\velocity}{\vec{v}}
+\newcommand{\torqueNorm}{\tau}
+\newcommand{\torque}{\vec{\torqueNorm}}
+
+
+\newcommand{\computationalDomain}{\Omega}
+\newcommand{\elementIndex}{k}
+\newcommand{\numberOfElements}{K}
+\newcommand{\setOfBasisFunctions}{\mathcal{B}}
+\newcommand{\basisFunction}{\vec{\psi}}
+\newcommand{\coeffBasisFunction}{\bm{\basisFunction}}
+\newcommand{\setOfNodalFunctions}{\mathcal{B}_\text{n}}
+\newcommand{\numberOfBasisFunctions}{{N}}
+\newcommand{\lagrangePol}{l}
+\newcommand{\legendrePol}{P}
+\newcommand{\simplexCoord}{\zeta}
+\newcommand{\numberOfFaces}{{N_f}}
+\newcommand{\numberOfNodes}{{N_p}}
+\newcommand{\numberOfFaceNodes}{N_{fp}}
+
+% Electromagnetism
+\newcommand{\elecNorm}{E}
+\newcommand{\magnNorm}{H}
+\newcommand{\elec}{\vec{\elecNorm}}
+\newcommand{\magn}{\vec{\magnNorm}}
+\newcommand{\E}{\elec}
+\newcommand{\B}{B}
+\newcommand{\magnFlux}{\vec{\B}}
+\newcommand{\elecFlux}{\vec{D}}
+\newcommand{\polarization}{\vec{P}}
+\newcommand{\field}{\vec{Q}}
+\newcommand{\current}{I}
+\newcommand{\currentDensityNorm}{J}
+\newcommand{\currentDensity}{\vec{\currentDensityNorm}}
+\newcommand{\magnCurrent}{\vec{M}}
+\newcommand{\charge}{q}
+\newcommand{\chargeDensity}{\rho}
+\newcommand{\conductivity}{\sigma}
+\newcommand{\resistivity}{\rho}
+\newcommand{\emf}{\mathcal{E}}
+\newcommand{\magneticMomentNorm}{\mu}
+\newcommand{\magneticMoment}{\magneticMomentNorm}
+
+\newcommand{\impedance}{Z}
+\newcommand{\admitance}{Y}
+\newcommand{\intrinsicImpedance}{\eta}
+\newcommand{\propagationConstant}{\gamma}
+\newcommand{\suceptibility}{\chi}
+
+\newcommand{\permittivity}{\varepsilon}
+\newcommand{\permeability}{\mu}
+\newcommand{\speedOfLight}{c}
+\newcommand{\wavenumber}{k}
+\newcommand{\eigfrequency}{\omega}
+\newcommand{\constantCoulomb}{\kappa}
+\newcommand{\fracCouloumb}{\frac{1}{4\pi\permittivity_0}}
+\newcommand{\fracBiotSavart}{\frac{\permeability_0}{4 \pi}}
+
+\newcommand{\Ecoeff}{{\mathbf{E}}}
+\newcommand{\Hcoeff}{{\mathbf{H}}}
+
+\newcommand{\kronecker}{\otimes}
+\newcommand{\connectOp}{\mathcal{Z}}
+\newcommand{\massOp}{\mathcal{M}}
+\newcommand{\stiffOp}{\mathcal{S}}
+\newcommand{\fluxOp}{\mathcal{F}}
+\newcommand{\evolutionOp}{\mathcal{H}}
+\newcommand{\eye}{\mathcal{I}}
+\newcommand{\vandermonde}{\mathcal{V}}
+
+% Matrix Operators
+\newcommand{\tensor}[1]{\bar{\bar{#1}}}
+\newcommand{\extraction}{\bar{\mathcal{E}}}
+\newcommand{\massMatrix}{\mathcal{M}}
+\newcommand{\stiffMatrix}{\mathcal{S}}
+\newcommand{\fluxMatrix}{\mathcal{F}}
+\newcommand{\eigMatrix}{\mathcal{W}}
+\newcommand{\diagonalizingMatrix}{\mathcal{P}}
+\newcommand{\externalMatrix}{\mathcal{V}}
+\newcommand{\impmatrix}{\tilde{\mathcal{Z}}}
+\newcommand{\resmatrix}{\mathcal{R}}
+\newcommand{\semidiscretization}{\mathcal{L}}
+
+% Operators
+\newcommand{\convolution}{\ast}
+
+% 
+\newcommand{\stretchedRadius}[1]{\tilde{r}_{#1}}
+\newcommand{\stretchedLameCoeff}[1]{\tilde{h}_{#1}}
+\newcommand{\stretchedE}[1]{\tilde{E}_{#1}}
+\newcommand{\stretchedH}[1]{\tilde{H}_{#1}}
+\newcommand{\radius}[1]{r_{#1}}
+\newcommand{\lameCoeff}[1]{h_{#1}}
+\newcommand{\curvatureRadius}[1]{r_{0 #1}}
+\newcommand{\statevector}{\mathbf{q}}
+\newcommand{\eigenmode}{\mathbf{p}}
+\newcommand{\residue}{\mathbf{r}}
+% %%\newcommand{\bvec}{\mathbf{b}}
+
+% Units.
+\newcommand{\Newton}{\text{N}}
+\newcommand{\meter}{\text{m}}
+\newcommand{\second}{\text{s}}
+\newcommand{\Coulomb}{\text{C}}
+\newcommand{\Volt}{\text{V}}
+\newcommand{\Ampere}{\text{A}}
+\newcommand{\Farad}{\text{F}}
+\newcommand{\Ohm}{\Omega}
+\newcommand{\Siemens}{\text{S}}
+\newcommand{\Jules}{\text{J}}
+\newcommand{\Watt}{\text{W}}
+\newcommand{\gram}{\text{g}}
+\newcommand{\Tesla}{\text{T}}
+\newcommand{\Weber}{\text{Wb}}
+\newcommand{\Henry}{\text{H}}
+\newcommand{\Hertz}{\text{Hz}}
+
+% Prefix
+\newcommand{\mega}{\text{M}}
+\newcommand{\kilo}{\text{k}}
+\newcommand{\centi}{\text{c}}
+\newcommand{\mili}{\text{m}}
+\newcommand{\micro}{\mu}
+\newcommand{\nano}{\text{n}}
+\newcommand{\pico}{\text{p}}
+\newcommand{\femto}{\text{f}}
